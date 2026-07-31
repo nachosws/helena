@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Helena La Pastelería — Medialunas artesanales, tortas y budines en Asunción, Paraguay. Cuatro locales en Herrera, Las Mercedes, Mburucuyá y Carmelitas." />
+  <meta name="keywords" content="pastelería Asunción, medialunas Asunción, tortas Paraguay, pastelería artesanal, Helena pastelería, cafe y pastelería Asunción" />
+  <meta property="og:title" content="Helena La Pastelería | Asunción, Paraguay" />
+  <meta property="og:description" content="Medialunas artesanales y pastelería de calidad en Asunción. Cuatro locales para vivir una experiencia dulce única." />
+  <meta property="og:type" content="website" />
+  <title>Helena La Pastelería | Asunción, Paraguay</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Helena <em>la pastelería</em></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#historia">Nuestra historia</a></li>
+      <li><a href="#locales">Locales</a></li>
+      <li><a href="#eventos">Eventos</a></li>
+      <li><a href="https://wa.me/595971987333" target="_blank" class="nav-cta">Hacer pedido</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-text">
+      <span class="hero-eyebrow">Pastelería artesanal · Asunción, Paraguay</span>
+      <h1 class="hero-title">El dulce<br />de cada<br /><em>día.</em></h1>
+      <p class="hero-subtitle">
+        Medialunas de manteca con receta tradicional argentina, tortas, budines y más. Cuatro locales en Asunción para que el desayuno o la merienda sean una experiencia única.
+      </p>
+      <div class="hero-actions">
+        <a href="#productos" class="btn-primary">Ver productos</a>
+        <a href="#locales" class="btn-secondary">Encontrarnos →</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="hero-placeholder">
+        <!-- Reemplazar con <img src="img/hero.jpg" alt="Interior de Helena La Pastelería"> -->
+        <img width="120%" height="120%" src="img/background.png" alt="Interior de Helena La Pastelería">
+
+      </div>
+      <div class="hero-badge">
+        <div class="hero-badge-icon">🥐</div>
+        <div class="hero-badge-text">
+          <strong>Medialunas de manteca</strong>
+          <span>El producto estrella · Receta argentina</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos">
+    <div class="productos-header">
+      <div>
+        <span class="section-eyebrow">Lo que hacemos</span>
+        <h2 class="section-title">Nuestros <em>productos</em></h2>
+      </div>
+      <p class="section-desc">Todo elaborado con ingredientes de primera calidad. Sin negociación.</p>
+    </div>
+
+    <div class="productos-grid">
+        <!-- Medialunas de manteca -->
+        <div class="producto-card featured">
+            <div class="producto-img" style="background: linear-gradient(135deg, #EDE8F5, #C4B5D4);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="150%" src="img/medialuna.png" alt="Medialuna de manteca">
+                </span>
+                <span class="producto-tag">⭐ Estrella de la casa</span>
+            </div>
+            <div class="producto-info" style="display:flex; flex-direction:column; justify-content:center; padding: 2.5rem;">
+                <p class="producto-nombre" style="font-size:1.9rem;">Medialunas de manteca</p>
+                <p class="producto-desc" style="margin-top:0.75rem; font-size:0.95rem;">
+                    Elaboradas con receta tradicional argentina. Simples, rellenas o con jamón — las más pedidas desde el primer día. Crujientes por fuera, suaves por dentro.
+                </p>
+            </div>
+        </div>
+        
+        <!-- Torta Helena -->
+        <div class="producto-card">
+            <div class="producto-img" style="background: linear-gradient(135deg, #FAF2E8, #E8D9C3);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/tortahelena.png" alt="Torta Helena">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre">Torta Helena</p>
+            <p class="producto-desc">Mousse de chocolate, dulce de leche y merengue italiano. La torta insignia de la casa.</p>
+            </div>
+        </div>
+
+        <!-- Budin -->
+        <div class="producto-card">
+            <div class="producto-img" style="background: linear-gradient(135deg, #F5EDE8, #D4B09A);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/budin.png" alt="Budin">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre">Budines</p>
+            <p class="producto-desc">De banana y nuez, vegano de banana (con pedido anticipado). Densos, húmedos y sin apuros.</p>
+            </div>
+        </div>
+
+        <!-- Pastafrola -->
+        <div class="producto-card">
+            <div class="producto-img" style="background: linear-gradient(135deg, #EAF0E8, #B8CEB4);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/pastafrola.png" alt="Milhojas y pasta frola">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre">Milhojas y pasta frola</p>
+            <p class="producto-desc">Capas crujientes con dulce de leche. La pasta frola de siempre, hecha como corresponde.</p>
+            </div>
+        </div>
+
+        <!-- Alfajores y cookies -->
+        <div class="producto-card">
+            <div class="producto-img" style="background: linear-gradient(135deg, #F0EBF5, #C4B5D4);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/alfajor.png" alt="Alfajores y cookies">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre">Alfajores y cookies</p>
+            <p class="producto-desc">Alfajores, alfacookies y palmeritas. El capricho perfecto para los que no resisten un dulce.</p>
+            </div>
+        </div>
+        
+        <!-- Brownies y postres -->
+        <div class="producto-card">
+            <div class="producto-img" style="background: linear-gradient(135deg, #F5EBE8, #C4957A);">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/brownie.png" alt="Brownies y postres">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre">Brownies y postres</p>
+            <p class="producto-desc">Brownies, cuadrados de frutos secos y postres individuales para el antojo del momento.</p>
+            </div>
+        </div>
+
+        <div class="producto-card" style="background: var(--dark);">
+            <div class="producto-img" style="background: linear-gradient(135deg, #2C2420, #4A3830); height:180px;">
+                <span style="font-size:0rem;">
+                    <img width="100%" height="100%" src="img/lavazza.png" alt="Café Lavazza">
+                </span>
+            </div>
+            <div class="producto-info">
+            <p class="producto-nombre" style="color:var(--white);">Café Lavazza</p>
+            <p class="producto-desc" style="color:rgba(255,255,255,0.6);">Asociados con Lavazza para ofrecerte café de primera calidad. Jugos, gaseosas y aguas para acompañar.</p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- HISTORIA -->
+    <section id="historia">
+        <div>
+        <span class="section-eyebrow">Quiénes somos</span>
+        <h2 class="section-title">Una historia<br />de <em>familia.</em></h2>
+        <div class="historia-body">
+            <p>
+            Todo empezó con tres socios que salían a merendar cada fin de semana con sus parejas. Veían una oportunidad donde otros veían simplemente una costumbre: Asunción necesitaba un lugar donde el desayuno y la merienda fueran una experiencia, no una rutina.
+            </p>
+            <p>
+            El nombre <strong style="color:var(--lavender); font-weight:400;">Helena</strong> no es casualidad. Homenajea a la bisabuela de uno de los socios, nacida en Encarnación, Paraguay, en 1902. Una manera de conectar lo argentino con lo paraguayo desde el primer día.
+            </p>
+            <p>
+            Arrancamos en octubre de 2021 vendiendo por redes sociales. En febrero de 2022 abrimos el primer local en Herrera. Hoy somos cuatro locales y más de 25 personas que hacen a la familia Helena cada día.
+            </p>
+        </div>
+        </div>
+
+        <div class="historia-visual">
+        <div>
+            <div class="historia-card">
+            <div class="historia-year">1902</div>
+            <p>El año en que nació <strong>Helena</strong>, en Encarnación, Paraguay. La bisabuela que le da nombre y alma a esta pastelería.</p>
+            </div>
+            <div class="historia-stats">
+            <div class="stat">
+                <span class="stat-number">4</span>
+                <span class="stat-label">Locales</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Personas</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">2021</span>
+                <span class="stat-label">Fundación</span>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- LOCALES -->
+    <section id="locales">
+        <div class="locales-header">
+        <span class="section-eyebrow">Dónde encontrarnos</span>
+        <h2 class="section-title">Cuatro locales<br />en <em>Asunción.</em></h2>
+        </div>
+
+        <div class="locales-grid">
+
+        <div class="local-card">
+            <div class="local-header">
+            <div class="local-number">1</div>
+            <div class="local-barrio">Herrera</div>
+            </div>
+            <div class="local-body">
+            <div class="local-info">
+                <div class="local-row"><span class="local-row-icon">📍</span><span>Guido Spano 3205</span></div>
+                <div class="local-row"><span class="local-row-icon">🕐</span><span>Lunes a lunes · 9:00 – 19:00</span></div>
+            </div>
+            <a href="https://maps.google.com/?q=Guido+Spano+3205+Asuncion+Paraguay" target="_blank" class="local-cta">Ver en Google Maps →</a>
+            </div>
+        </div>
+
+        <div class="local-card">
+            <div class="local-header">
+            <div class="local-number">2</div>
+            <div class="local-barrio">Las Mercedes</div>
+            </div>
+            <div class="local-body">
+            <div class="local-info">
+                <div class="local-row"><span class="local-row-icon">📍</span><span>De la Residenta 785</span></div>
+                <div class="local-row"><span class="local-row-icon">🕐</span><span>Lunes a sábados · 8:00 – 18:00</span></div>
+            </div>
+            <a href="https://maps.google.com/?q=De+la+Residenta+785+Asuncion+Paraguay" target="_blank" class="local-cta">Ver en Google Maps →</a>
+            </div>
+        </div>
+
+        <div class="local-card">
+            <div class="local-header">
+            <div class="local-number">3</div>
+            <div class="local-barrio">Mburucuyá</div>
+            </div>
+            <div class="local-body">
+            <div class="local-info">
+                <div class="local-row"><span class="local-row-icon">📍</span><span>Julio Correa 1140</span></div>
+                <div class="local-row"><span class="local-row-icon">🕐</span><span>Lunes a lunes · 9:00 – 19:00</span></div>
+            </div>
+            <a href="https://maps.google.com/?q=Julio+Correa+1140+Asuncion+Paraguay" target="_blank" class="local-cta">Ver en Google Maps →</a>
+            </div>
+        </div>
+
+        <div class="local-card">
+            <div class="local-header">
+            <div class="local-number">4</div>
+            <div class="local-barrio">Carmelitas</div>
+            </div>
+            <div class="local-body">
+            <div class="local-info">
+                <div class="local-row"><span class="local-row-icon">📍</span><span>Senador Long 533</span></div>
+                <div class="local-row"><span class="local-row-icon">🕐</span><span>Lunes a lunes · 9:00 – 19:00</span></div>
+            </div>
+            <a href="https://maps.google.com/?q=Senador+Long+533+Asuncion+Paraguay" target="_blank" class="local-cta">Ver en Google Maps →</a>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="eventos">
+        <div>
+        <span class="section-eyebrow">Para ocasiones especiales</span>
+        <h2 class="section-title">Eventos y<br /><em>catering.</em></h2>
+        <div class="eventos-features">
+            <div class="evento-feature">
+            <div class="evento-feature-icon">🎂</div>
+            <div class="evento-feature-text">
+                <strong>Tortas y dulces para eventos</strong>
+                <span>Cumpleaños, casamientos, reuniones corporativas o cualquier celebración.</span>
+            </div>
+            </div>
+            <div class="evento-feature">
+            <div class="evento-feature-icon">📦</div>
+            <div class="evento-feature-text">
+                <strong>Pedidos con anticipación</strong>
+                <span>Coordinamos la producción según tu fecha y cantidad. Sin sorpresas.</span>
+            </div>
+            </div>
+            <div class="evento-feature">
+            <div class="evento-feature-icon">📍</div>
+            <div class="evento-feature-text">
+                <strong>Donde lo necesitás</strong>
+                <span>Te llevamos los productos donde y como se requiera.</span>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="eventos-cta-box">
+        <h3 class="section-title">¿Tenés un<br /><em>evento?</em></h3>
+        <p>Consultanos por disponibilidad, cantidades y precios. Respondemos por WhatsApp.</p>
+        <a href="https://wa.me/595971987333?text=Hola%20Helena!%20Quisiera%20consultar%20por%20un%20evento." target="_blank" class="btn-whatsapp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Consultar por WhatsApp
+        </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-top">
+        <div>
+            <div class="footer-brand-name">Helena <em>la pastelería</em></div>
+            <p class="footer-brand-desc">
+            Pastelería artesanal con receta argentina en el corazón de Asunción. Cuatro locales, más de 25 personas y un solo objetivo: hacer del dulce una experiencia.
+            </p>
+        </div>
+        <div>
+            <p class="footer-col-title">Navegación</p>
+            <ul class="footer-links">
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#historia">Nuestra historia</a></li>
+            <li><a href="#locales">Locales y horarios</a></li>
+            <li><a href="#eventos">Eventos y catering</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="footer-col-title">Contacto</p>
+            <div class="footer-contact">
+            <a href="https://wa.me/595971987333" target="_blank">📱 (0971) 987-333</a>
+            <a href="https://wa.me/595972373900" target="_blank">📱 (0972) 373-900</a>
+            <a href="https://www.instagram.com/helenalapasteleria/" target="_blank">📷 @helenalapasteleria</a>
+            </div>
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+        <p class="footer-copy">© 2024 Helena La Pastelería · Asunción, Paraguay</p>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/helenalapasteleria/" target="_blank" aria-label="Instagram">ig</a>
+            <a href="https://wa.me/595971987333" target="_blank" aria-label="WhatsApp">wa</a>
+        </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp flotante -->
+    <a href="https://wa.me/595971987333" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="js/main.js"></script>
+
+    </body>
+    </html>
